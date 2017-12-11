@@ -15,58 +15,14 @@ body {
     text-decoration: none;
 }
 
-/* FLEXBOX INFO */
-
-.my-flex-container {
-    border: 2px solid green; 
-    height: 300px;
-    /* margin-bottom: 20px; */
- } 
-
- .my-flex-container-column {
-    border: 2px solid green;
-    /* height: 200px;
-    margin-bottom: 20px; */
- }
-
- img {    
-    border: 2px solid lightgrey;   
-    max-width: 100%;
-    max-height: 100%; 
- } 
-
- .hello {
-    border: 2px solid green;
-    /* font-size: 100%; */
-    max-width:50%;
-    max-height:50%; 
- }
-
- .my-flex-item {
-     background-color: lightgrey;
-     border: 1px dotted grey;
-     max-height: 100%;
- } 
-
  /* GRID INFO */
 
  .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;  
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
  }
 
- .hello2 {
-    grid-column-end: span 1;
-    grid-row-end: span 3;
-}
-
-
  .grid div {
-    border: 1px solid rgb(0, 95, 107);
-    border-radius: 3px;
-    padding: .2em;
-    background-color: rgba(0, 95, 107, 0.8); 
-    font-size: 120%;
-    color: #fff;
+     background-color: green;
  }
