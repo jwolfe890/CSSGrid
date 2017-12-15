@@ -31,4 +31,5 @@ body {
 
  .one {
      grid-column-end: span 2;
+     grid-row-end: span 2;
  }
