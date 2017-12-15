@@ -18,16 +18,26 @@ body {
  /* GRID INFO */
  .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    grid-template-rows: 200px 200px 200px 200px;
     grid-column-gap: 1px;
-    grid-gap: 1px;
- }
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 400px);    
+}
+
+/* .grid div:nth-child(1) {
+    order: 2;
+} */
+
+.grid div:nth-child(2) {
+    order: 1;
+}
 
  .grid div {
+     order: 2;
+     border-radius: 23px;
+     padding: 0 2em;
      background-color: green;
  }
 
- .one {
+ /* .one {
   order: 4;   
- }
+ } */
