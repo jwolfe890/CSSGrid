@@ -16,15 +16,18 @@ body {
 }
 
  /* GRID INFO */
-
  .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 200px 200px;
-    grid-column-gap: 5px;
-    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-column-gap: 1px;
+    grid-gap: 1px;
  }
 
  .grid div {
      background-color: green;
+ }
+
+ .one {
+  order: 4;   
  }
