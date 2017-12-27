@@ -16,9 +16,16 @@ body {
 }
 
  /* GRID INFO */
- .grid {
+ /* .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));   
+    grid-gap: 20px; 
+} */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);   
+    grid-template-rows: repeat(3, 200px);       
     grid-gap: 20px; 
 }
 
@@ -31,5 +38,10 @@ body {
 
  .one {
      grid-row: 2;
-     grid-column: span 4;     
+     grid-column: 2 / span 2;     
 }  
+
+.two {
+    grid-row: 2;
+    grid-column: 5 / span 2; 
+}
